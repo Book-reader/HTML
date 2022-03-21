@@ -32,25 +32,25 @@ h1 {
 }
 
 .cat2html{
-    background-image: url("/assets/cat-2.png");
+    background-image: url("./assets/cat-2.png");
     background-position: left top;
 	background-attachment: fixed;
 }
 
 .phonecasehtml{
-    background-image: url("/assets/Phonecase.png");
+    background-image: url("./assets/Phonecase.png");
     background-position: left top;
 	background-attachment: fixed;
 }
 
 .foxhtml{
-    background-image: url("/assets/fox.png");
+    background-image: url("./assets/fox.png");
     background-position: left top;
 	background-attachment: fixed;
 }
 
 .tigerhtml{
-    background-image: url("/assets/tiger.png");
+    background-image: url("./assets/tiger.png");
     background-position: left top;
 	background-attachment: fixed;
 }
@@ -112,7 +112,7 @@ a:visited {
 }
 
 body{
-    background-image: url(/assets/wallpaper.png);
+    background-image: url(./assets/wallpaper.png);
     background-size:cover;
 }
 
