@@ -160,7 +160,7 @@ body{
   }
   
   body {
-    overflow-x: hidden; /* Hide scrollbars */
+    overflow: hidden; /* Hide scrollbars */
   }
 
   /* width */
