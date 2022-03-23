@@ -11,6 +11,7 @@ function setup() {
   wall.debug=true;
   wall2.debug=true;
   wall3.debug=true;
+  canvas.className = 'game';
 }
 
 function draw() {
