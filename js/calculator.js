@@ -1,14 +1,20 @@
 //html required
 
-//<input type=number id=input_id />
-//<br>
-//<label class="paylabel" for="operator">Operator:</label><select id="operator" name="operator"><option value="0">+</option><option value="1">-</option><option value="2">*</option><option value="3">/</option></select>
-//<br>
-//<input type=number id=input2_id />
-//<input type="button" onclick="calculate()" value="Calculate"> 
+//<div class = "calculator">
+//    <input type=number id=input_id />
+//    <br>
+//    <label class="paylabel" for="operator">Operator:</label><select id="operator" name="operator"><option value="0">+</option><option value="1">-</option><option value="2">*</option><option value="3">/</option></select>
+//    <br>
+//    <input type=number id=input2_id />
+//   <input type="button" onclick="calculate()" value="Calculate">
+//   <script src="./js/calculator.js"></script>
+//</div>
 
-
-
+//might be usefull
+//<div id="maincontent">
+//    <div class="innertube">
+//    </div>
+//</div>
 
 
 
