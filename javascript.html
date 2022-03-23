@@ -12,5 +12,54 @@
 <body>
     <script src="./js/game.js"></script>
     <a href="./index.html"> <h2>Back</h2> </a>
+
+    
+    <input type=text id=input_id />
+    <br>
+    <label class="paylabel" for="gcatnumber">Operator:</label><select id="gcatnumber" name="gcats"><option value="0">+</option><option value="1">-</option><option value="2">*</option><option value="3">/</option></select>
+    <br>
+    <input type=text id=input2_id />
+    <input type="button" onclick="trigger()" value="Cauculate">
+
+
+    <script>
+
+        function trigger(){
+            const number1 = document.getElementById("input_id").value;
+            const number2 = document.getElementById("input2_id").value;
+            // const number1 = number10.options[number10.selectedIndex].value;
+            // const number2 = number20.options[number20.selectedIndex].value;
+
+            var ddl = document.getElementById("gcatnumber");
+            var selectedValue = ddl.options[ddl.selectedIndex].value;
+
+            let result;
+
+            if (selectedValue == "0") {
+                result = +number1 + +number2;
+                const operator = "+"
+                alert(`${number1} ${operator} ${number2} = ${result}`);
+            }
+            else if (selectedValue == "1") {
+                result = number1 - number2;
+                const operator = "-"
+                alert(`${number1} ${operator} ${number2} = ${result}`);
+            }
+            else if (selectedValue == "2") {
+                result = number1 * number2;
+                const operator = "*"
+                alert(`${number1} ${operator} ${number2} = ${result}`);
+            }
+            else {
+                result = number1 / number2;
+                const operator = "/"
+                alert(`${number1} ${operator} ${number2} = ${result}`);
+            }
+
+
+        }
+
+    </script>
+
 </body>
 </html>
