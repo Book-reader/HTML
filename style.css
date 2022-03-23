@@ -170,17 +170,16 @@ body{
 
   #maincontent{
     position: fixed; 
-    top: 7%; /*Set top value to HeightOfTopFrameDiv*/
+    top: 7%;
     margin-left:auto;
     margin-right: auto;
-    bottom: 0%; /*Set bottom value to HeightOfBottomFrameDiv*/
+    bottom: 0%;
     overflow: auto; 
-    /* background: #fff; */
     width: 100%;
 }
 
 .innertube{
-    margin: 15px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+    margin: 15px;
 }
 
 .main-shop img {
