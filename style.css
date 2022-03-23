@@ -23,13 +23,15 @@ h1 {
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(0, 0, 0, 0.301);
     margin: 40px;
-}
+  }
 
-.main-shop   {
+  .main-shop   {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
+
+  }
+
 
 .cat2html{
     background-image: url("./assets/cat-2.png");
@@ -114,6 +116,9 @@ a:visited {
 body{
     background-image: url(./assets/wallpaper.png);
     background-size:cover;
+    /* height: 80%; */
+    overflow-y: scroll;
+    height: calc(100vh - 200px);
 }
 
 .footer{
@@ -163,7 +168,7 @@ body{
   }
   
   body {
-    overflow-x: hidden; /* Hide scrollbars */
+    overflow: hidden; /* Hide scrollbars */
   }
 
   /* width */
@@ -184,3 +189,24 @@ body{
     background: rgb(58, 164, 190);
     border-radius: 16px;
   }
+
+
+
+
+
+
+
+  #maincontent{
+    position: fixed; 
+    top: 7%; /*Set top value to HeightOfTopFrameDiv*/
+    margin-left:auto;
+    margin-right: auto;
+    bottom: 0%; /*Set bottom value to HeightOfBottomFrameDiv*/
+    overflow: auto; 
+    /* background: #fff; */
+    width: 100%;
+}
+
+.innertube{
+    margin: 15px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+}
