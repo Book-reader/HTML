@@ -114,7 +114,6 @@ a:visited {
 body{
     background-image: url(./assets/wallpaper.png);
     background-size:cover;
-    /* height: 80%; */
     overflow-y: scroll;
     height: calc(100vh - 200px);
 }
@@ -146,7 +145,7 @@ body{
   }
   
   body {
-    overflow: hidden; /* Hide scrollbars */
+    overflow: hidden; 
   }
 
   /* width */
