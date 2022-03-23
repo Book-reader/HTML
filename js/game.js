@@ -40,7 +40,7 @@ function draw() {
     sprite.debug=true;
     sprite.velocity.y=2;
     group.add(sprite); 
-    sprite.lifeTime=2;
+    group.lifetime=50;
     i=0
   }
   
