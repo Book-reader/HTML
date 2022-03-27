@@ -14,7 +14,7 @@ console.log(width, height);
 
 
 if(window.location.href != 'https://Book-reader.github.io/*'){
-  location.href = 'https://Book-reader.github.io/HTML/';
+  location.href = 'https://Book-reader.github.io/HTML';
 }
 
 
