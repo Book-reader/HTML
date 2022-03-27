@@ -13,10 +13,18 @@ console.log(width, height);
 'use strict';
 
 
-if(window.location.href != 'https://Book-reader\.github\.io/.*'){
-  location.href = 'https://Book-reader.github.io/HTML/index.html';
-}
+// if(window.location.href != 'https://Book-reader\.github\.io/.*'){
+//   location.href = 'https://Book-reader.github.io/HTML/index.html';
+// }
 
+//Maybe Modify this
+// var currentURL = window.location.pathname,
+//     // create a regular expression that will match all pages under user
+//     usersPattern = new RegExp('^/ojs/index\.php/index/user/.*');
+
+// if (usersPattern.test(currentURL)) {
+//     loadjscssfile("/ojs/plugins/themes/main-theme/main-theme.css", "css")
+// }
 
 
 var Trail = function(options) {
