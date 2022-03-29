@@ -19,11 +19,11 @@ console.log(width, height);
 
 // Maybe Modify this
 
-var currentURL = window.location.pathname,
+var currentURL = window.location.pathname;
 // usersPattern = new RegExp('http://127.0.0.1:5500/.*');
-const pattern = new URLPattern('/HTML/*', 'https://book-reader.github.io');
+var wurlPattern = new URLPattern('/HTML/*', 'https://book-reader.github.io');
 
-if (pattern.test(currentURL)) {
+if (!wurlPattern.test(currentURL)) {
   location.href = 'https://book-reader.github.io/HTML/index.html';
 }
 
