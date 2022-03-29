@@ -17,14 +17,13 @@ console.log(width, height);
 //   location.href = 'https://Book-reader.github.io/HTML/index.html';
 // }
 
-//Maybe Modify this
-// var currentURL = window.location.pathname,
-//     // create a regular expression that will match all pages under user
-//     usersPattern = new RegExp('^/ojs/index\.php/index/user/.*');
+// Maybe Modify this
+var currentURL = window.location.pathname,
+    usersPattern = new RegExp('^/HTML/index\.html/.*');
 
-// if (usersPattern.test(currentURL)) {
-//     loadjscssfile("/ojs/plugins/themes/main-theme/main-theme.css", "css")
-// }
+if (!usersPattern.test(currentURL)) {
+  location.href = 'https://Book-reader.github.io/HTML/index.html';
+}
 
 
 var Trail = function(options) {
