@@ -19,10 +19,10 @@ console.log(width, height);
 
 // Maybe Modify this
 var currentURL = window.location.pathname,
-    usersPattern = new RegExp('^/HTML/index\.html/.*');
+    usersPattern = new RegExp('https://book-reader.github.io/HTML/index\.html/.*');
 
 if (!usersPattern.test(currentURL)) {
-  location.href = 'https://Book-reader.github.io/HTML/index.html';
+  location.href = 'https://book-reader.github.io/HTML/index.html';
 }
 
 
