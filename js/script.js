@@ -18,12 +18,17 @@ console.log(width, height);
 // }
 
 // Maybe Modify this
-var currentURL = window.location.pathname,
-    usersPattern = new RegExp('https://book-reader.github.io/HTML/.*');
 
-if (!usersPattern.test(currentURL)) {
+var currentURL = window.location.pathname,
+// usersPattern = new RegExp('http://127.0.0.1:5500/.*');
+const pattern = new URLPattern('/HTML/*', 'https://book-reader.github.io');
+
+if (pattern.test(currentURL)) {
   location.href = 'https://book-reader.github.io/HTML/index.html';
 }
+
+
+// console.log(pattern.test('https://example.com/books/123')); // true
 
 
 var Trail = function(options) {
