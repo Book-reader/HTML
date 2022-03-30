@@ -13,19 +13,20 @@ console.log(width, height);
 'use strict';
 
 
-// if(window.location.href != 'https://Book-reader\.github\.io/.*'){
-//   location.href = 'https://Book-reader.github.io/HTML/index.html';
-// }
+var wurlPattern = new URLPattern('/HTML/*', 'https://book-reader.github.io');
+
+if(window.location.href != wurlPattern){
+  location.href = 'https://Book-reader.github.io/HTML/index.html';
+}
 
 // Maybe Modify this
 
-var currentURL = window.location.pathname;
-// usersPattern = new RegExp('http://127.0.0.1:5500/.*');
-var wurlPattern = new URLPattern('/HTML/*', 'https://book-reader.github.io');
+// var currentURL = window.location.pathname;
+// // usersPattern = new RegExp('http://127.0.0.1:5500/.*');
 
-if (!wurlPattern.test(currentURL)) {
-  location.href = 'https://book-reader.github.io/HTML/index.html';
-}
+// if (!wurlPattern.test(currentURL)) {
+//   location.href = 'https://book-reader.github.io/HTML/index.html';
+// }
 
 
 // console.log(pattern.test('https://example.com/books/123')); // true
