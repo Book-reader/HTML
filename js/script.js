@@ -19,11 +19,11 @@ console.log(width, height);
 
 // Maybe Modify this
 
-// var wurlPattern = new URLPattern('/HTML/*', 'https://book-reader.github.io');
+var wurlPattern = new URLPattern('/HTML/*', 'https://book-reader.github.io');
 // var currentURL = window.location.pathname;
 // usersPattern = new RegExp('http://127.0.0.1:5500/.*');
 
-if (window.location.href != 'https://book-reader.github.io/HTML/*') {
+if (!wurlPattern.test(window.location.nref)){
   // location.href = 'http://127.0.0.1:5500/';
   // location.href = 'http://127.0.0.1:5000/';
   location.href = 'https://book-reader.github.io/HTML/index.html';
