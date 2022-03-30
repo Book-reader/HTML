@@ -18,14 +18,14 @@ console.log(width, height);
 // }
 
 // Maybe Modify this
-var eeee=0;
-var wurlPattern = new URLPattern('/HTML/*', 'https://book-reader.github.io');
-var currentURL = window.location.pathname;
+
+// var wurlPattern = new URLPattern('/HTML/*', 'https://book-reader.github.io');
+// var currentURL = window.location.pathname;
 // usersPattern = new RegExp('http://127.0.0.1:5500/.*');
 
-if (!wurlPattern.test(currentURL)&& eeee==0) {
+if ((window.location.href = 'http://127.0.0.1:5500/') {
   location.href = 'https://book-reader.github.io/HTML/index.html';
-  eeee=1;
+  // redirect=1;
 }
 
 
