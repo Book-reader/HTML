@@ -23,7 +23,7 @@ console.log(width, height);
 // var currentURL = window.location.pathname;
 // usersPattern = new RegExp('http://127.0.0.1:5500/.*');
 
-if ((window.location.href = 'http://127.0.0.1:5500/') {
+if (window.location.href == 'http://127.0.0.1:5500/' || window.location.href == 'http://127.0.0.1:5500/index.html') {
   location.href = 'https://book-reader.github.io/HTML/index.html';
   // redirect=1;
 }
