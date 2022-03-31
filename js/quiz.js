@@ -13,7 +13,7 @@ window.onload = function() {
 function checkAnswer(){
     const questionVal = document.getElementById("question").value;
     
-    if (questionNum == 1 && questionVal == now) {
+    if (questionNum == 1 && questionVal == now || questionVal == 0+now) {
         questionNum = 2;
         console.log("correct");
         document.getElementById('answer').innerHTML = "Correct";

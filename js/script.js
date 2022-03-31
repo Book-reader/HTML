@@ -13,11 +13,11 @@ console.log(width, height);
 'use strict';
 
 //url thing
-// var currentUrl = new URLPattern('/HTML/*', 'https://book-reader.github.io');
+var currentUrl = new URLPattern('/HTML/*', 'https://book-reader.github.io');
 
-// if (!currentUrl.test(window.location.href)){
-//   location.href = 'https://book-reader.github.io/HTML/index.html';
-// }
+if (!currentUrl.test(window.location.href)){
+  location.href = 'https://book-reader.github.io/HTML/index.html';
+}
 
 
 
