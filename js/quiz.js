@@ -36,5 +36,6 @@ function reload(){
         document.getElementById('questionNum').innerHTML = question;
         document.getElementById('question').value = "";
         document.getElementById('next').value = "Restart Quiz";
+        correct=false;
     }
 }
