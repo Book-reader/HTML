@@ -35,5 +35,6 @@ function reload(){
         var question = ("Question "+questionNum +": "+questionText[(questionNum-1)]);
         document.getElementById('questionNum').innerHTML = question;
         document.getElementById('question').value = "";
+        document.getElementById('next').value = "Restart Quiz";
     }
 }
