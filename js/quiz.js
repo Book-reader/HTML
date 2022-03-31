@@ -8,7 +8,7 @@ window.onload = function() {
     var question = ("Question "+questionNum +": "+questionText[(questionNum-1)]);
   
     document.getElementById('questionNum').innerHTML = question;
-  };
+};
 
 function checkAnswer(){
     const questionVal = document.getElementById("question").value;
@@ -17,6 +17,9 @@ function checkAnswer(){
         questionNum = 2;
         console.log("correct");
         document.getElementById('answer').innerHTML = "Correct";
+        var question = ("Question "+questionNum +": "+questionText[(questionNum-1)]);
+  
+        document.getElementById('questionNum').innerHTML = question;
     }else{
         console.log("incorrect");
         questionNum = 1;
