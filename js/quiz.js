@@ -22,7 +22,7 @@ function checkAnswer(){
     }else{
         console.log("incorrect");
         questionNum = 1;
-        document.getElementById('answer').innerHTML = "Incorect";
+        document.getElementById('answer').innerHTML = "Incorrect";
         correct = false;
         document.getElementById('next').value = "Restart Quiz";
     }
