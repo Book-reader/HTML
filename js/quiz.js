@@ -1,7 +1,7 @@
 var questionNum = 1;
 var correct = false;
 var questionVal;
-var questionText = ["What is the current date? (dd/mm/yyyy)","sample text","sample text","sample text","sample text"]
+var questionText = ["What is the current date? (dd/mm/yyyy)","What is lxqt?🐦","sample text","sample text","sample text"]
 var date = new Date();
 var now = date.toLocaleDateString('en-NZ');
 
