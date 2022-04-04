@@ -1,9 +1,10 @@
 var questionNum = 1;
 var correct = false;
 var questionVal;
-var questionText = ["What is the current date? (dd/mm/yyyy)","What is lxqt?🐦","sample text","sample text","sample text"]
+var questionText = ["What is the current date? (dd/mm/yyyy)","What is 23.5 ÷ 4?","sample text","sample text","sample text"]
 var date = new Date();
 var now = date.toLocaleDateString('en-NZ');
+
 
 window.onload = function() {
     var question = ("Question "+questionNum +": "+questionText[(questionNum-1)]);
@@ -58,7 +59,19 @@ function question1(){
 }
 
 function question2(){
-
+    console.log(23.5 / 4)
+    if(document.getElementById('question').value == (23.5 / 4)){
+        questionNum = 3;
+        document.getElementById('answer').innerHTML = "Correct";
+        correct = true;
+        document.getElementById('next').value = "Next Question";
+    }else{
+        console.log("incorrect");
+        questionNum = 2;
+        document.getElementById('answer').innerHTML = "Incorrect";
+        correct = false;
+        document.getElementById('next').value = "Restart Quiz";
+    }
 }
 
 function question3(){
