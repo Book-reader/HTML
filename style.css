@@ -316,3 +316,9 @@ button:active{
 h1{
   width: 90%;
 }
+
+.questionscore{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
