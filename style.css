@@ -1,0 +1,324 @@
+h1 {
+    border-style: double;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 0px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.301);
+}
+
+.main-img {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    margin: 40px;
+  }
+
+  .main-shop   {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+
+.cat2html{
+    background-image: url("./assets/cat-2.png");
+    background-position: left top;
+	background-attachment: fixed;
+}
+
+.phonecasehtml{
+    background-image: url("./assets/Phonecase.png");
+    background-position: left top;
+	background-attachment: fixed;
+}
+
+.foxhtml{
+    background-image: url("./assets/fox.png");
+    background-position: left top;
+	background-attachment: fixed;
+}
+
+.tigerhtml{
+    background-image: url("./assets/tiger.png");
+    background-position: left top;
+	background-attachment: fixed;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
+ 
+.main-img {
+    border-radius: 16px;
+}
+
+.main-img img{
+    border-radius: 16px;
+}
+.main-img:hover {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+.box {
+    pointer-events: none;
+    z-index: 1000;
+    position: absolute;
+    -webkit-animation: rotate 2.5s infinite linear;
+            animation: rotate 2.5s infinite linear;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.034);
+    padding: 0px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.301);
+}
+  
+@-webkit-keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+}
+  
+@keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(./assets/wallpaper.png);
+    background-size:cover;
+    overflow-y: scroll;
+    height: calc(100vh - 200px);
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.main-shop {
+    margin: 0 100px 0 100px;
+  }
+  
+  .main-img {
+    border: solid black 1px;
+    padding: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  
+  body {
+    overflow: hidden; 
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    backdrop-filter: blur(5px);
+    background-color: rgb(97, 97, 97);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(58, 164, 190);
+    border-radius: 16px;
+  }
+
+  #maincontent{
+    position: fixed; 
+    top: 7%;
+    margin-left:auto;
+    margin-right: auto;
+    bottom: 0%;
+    overflow: auto; 
+    width: 100%;
+}
+
+.innertube{
+    margin: 15px;
+}
+
+.main-shop img {
+	-webkit-filter: saturate(0%);
+	filter: saturate(0%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.main-shop img:hover{
+	-webkit-filter: saturate(100%);
+	filter: saturate(100%);
+}
+
+input{
+  background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size:xx-large;
+}
+
+label{
+  background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size:xx-large;
+}
+
+select{
+  background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size:xx-large;
+}
+
+.calculator{
+    float: right;
+}
+
+.game{
+  background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.301);
+}
+
+.back{
+  background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    width: 55px;
+}
+
+video{
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.301);
+}
+
+.about{
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.301);
+}
+
+.question{
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.301);
+  font-size: 30px;
+}
+
+.answer{
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.301);
+  font-size: 30px;
+  width: 110px;
+}
+
+
+input[type=button]:active{
+  transform: translateY(4px);
+  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+input[type=button]{
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.301);
+  font-size: 30px;
+}
+
+button:active{
+  transform: translateY(4px);
+  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+h1{
+  width: 90%;
+}
+
+.questionscore{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
