@@ -64,8 +64,6 @@ function draw() {
 
 
 
-
-
 function movement(){
   if(player.position.x>790){
     player.position.x=789;

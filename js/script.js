@@ -21,6 +21,7 @@ if (!currentUrl.test(window.location.href)){
 
 
 
+
 var Trail = function(options) {
   this.size        = options.size || 10;
   this.trailLength = options.trailLength || 20;

@@ -17,7 +17,6 @@
 //</div>
 
 
-
 function calculate(){
     const number1 = document.getElementById("input_id").value;//first input
     const number2 = document.getElementById("input2_id").value;//second input

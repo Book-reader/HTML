@@ -68,7 +68,6 @@ function question3(){
     }
 }
 
-
 function isCorrect(){
     console.log("correct");
     document.getElementById('answer').innerHTML = "Correct";
